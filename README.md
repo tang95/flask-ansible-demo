@@ -1,6 +1,14 @@
 # flask-ansible-demo
 使用flask调用ansible 并且实时显示日志的demo
+运行流：
 
+```mermaid
+graph TD;
+  A-->B;
+  A-->C;
+  B-->D;
+  C-->D;
+  ```
 
 最近在研究ansible，写了个简单的例子
 
