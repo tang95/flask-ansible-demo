@@ -1,0 +1,9 @@
+- hosts: all
+  name: 测试
+  gather_facts: no
+  tasks:
+    - name: "{{ name }}"
+      shell: ls /
+
+    - name: "{{ name2 }}"
+      shell: ls /home
